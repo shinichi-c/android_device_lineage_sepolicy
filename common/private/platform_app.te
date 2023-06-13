@@ -15,3 +15,6 @@ allow platform_app mnt_pass_through_file:dir { getattr search };
 
 # Compact HUN	
 allow platform_app system_prop:property_service set;
+
+# Zygote
+allow platform_app zygote:unix_stream_socket getopt;

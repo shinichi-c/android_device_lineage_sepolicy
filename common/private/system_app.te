@@ -22,3 +22,6 @@ allow system_app selinuxfs:file r_file_perms;
 
 # Compact HUN
 allow system_app system_prop:property_service set;
+
+# Zygote
+allow system_app zygote:unix_stream_socket getopt;
