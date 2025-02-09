@@ -22,5 +22,8 @@ set_prop(system_server, xtra_control_prop)
 # Freeform
 add_service(system_server, lmofreeform_service);
 
+# Boost framework
+add_service(system_server, boost_framework_service);
+
 # Refresh Rate Manager
 add_service(system_server, refresh_rate_manager_service);
