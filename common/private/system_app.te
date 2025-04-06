@@ -19,3 +19,6 @@ set_prop(system_app, recovery_update_prop)
 
 # Read selinux status
 allow system_app selinuxfs:file r_file_perms;
+
+# Compact HUN
+allow system_app system_prop:property_service set;
