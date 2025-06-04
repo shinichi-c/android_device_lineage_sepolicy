@@ -21,3 +21,6 @@ set_prop(system_server, xtra_control_prop)
 
 # Freeform
 add_service(system_server, lmofreeform_service);
+
+# Refresh Rate Manager
+add_service(system_server, refresh_rate_manager_service);

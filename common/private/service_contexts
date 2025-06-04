@@ -10,3 +10,6 @@ pocket                                    u:object_r:pocket_service:s0
 
 # Freeform
 lmo_freeform                              u:object_r:lmofreeform_service:s0
+
+# Refresh Rate Manager
+refresh_rate_ext                          u:object_r:refresh_rate_manager_service:s0

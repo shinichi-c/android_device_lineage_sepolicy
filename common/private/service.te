@@ -9,3 +9,6 @@ type pocket_service, system_api_service, system_server_service, service_manager_
 
 # Freeform
 type lmofreeform_service, system_api_service, system_server_service, service_manager_type;
+
+# Refresh Rate Manager
+type refresh_rate_manager_service, system_api_service, system_server_service, service_manager_type;
